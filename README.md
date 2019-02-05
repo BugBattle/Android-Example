@@ -7,7 +7,6 @@ Open your app in your preferred  development tool, for e.g. Android Studio.
 
 **Add the repository **
 
-**Add the repository **
 As already mentioned  it’s very simple to include. Add the following repository to your root build.gradle, to get access to the JitPack repository.
 ```
 allprojects {
@@ -30,6 +29,7 @@ dependencies {
 ( don't forget to synchronise your includes 😄)
 
 By adding this, you are ready to use the library in your app. Let's carry on with the initialisation 🎉
+
 
 **Initialise the SDK**
 
