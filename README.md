@@ -5,7 +5,7 @@ The easiest way to integrate BugBattle into your apps is by using the BugBattle 
 ## Add BugBattle from JitPack
 Open your app in your preferred  development tool, for e.g. Android Studio.
 
-**Add the repository **
+**Add the repository**
 
 As already mentioned  it’s very simple to include. Add the following repository to your root build.gradle, to get access to the JitPack repository.
 ```
