@@ -24,7 +24,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'com.github.BoehlerBrothers:bugbattle-android-sdk:0.0.5'
+    implementation 'com.github.BoehlerBrothers:bugbattle-android-sdk:1.0.1'
 }
 ```
 ( don't forget to synchronise your includes 😄)
