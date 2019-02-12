@@ -27,5 +27,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     //Added the dependency
-    implementation 'com.github.BoehlerBrothers:bugbattle-android-sdk:1.0.1'
+    implementation 'com.github.BoehlerBrothers:bugbattle-android-sdk:1.0.2'
 }
