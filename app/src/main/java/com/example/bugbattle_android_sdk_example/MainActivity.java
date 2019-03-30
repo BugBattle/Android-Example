@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        BugBattle.initialise(this, "5c41fcd794aaf5331dd4d513", BugBattleActivationMethod.SHAKE);
+        BugBattle.initialise(this.getApplication(), "5c41fcd794aaf5331dd4d513", BugBattleActivationMethod.SHAKE);
     }
 }
