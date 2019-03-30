@@ -28,4 +28,5 @@ dependencies {
 
     //Added the dependency
     implementation 'com.github.BoehlerBrothers:bugbattle-android-sdk:1.0.8'
+
 }
