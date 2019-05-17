@@ -1,5 +1,5 @@
 # BugBattle-Android 
-[![](https://jitpack.io/v/BoehlerBrothers/bugbattle-android-sdk.svg)](https://jitpack.io/BugBattle/BugBattle-Android-SDK)
+[![](https://jitpack.io/v/BugBattle/BugBattle-Android-SDK.svg)](https://jitpack.io/#BugBattle/BugBattle-Android-SDK)
 
 The easiest way to integrate BugBattle into your apps is by using the BugBattle Android SDK! This article explains the basic steps to integrate this library to your personal project. 😃
 
