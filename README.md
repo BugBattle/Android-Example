@@ -1,5 +1,5 @@
 # BugBattle-Android 
-[![](https://jitpack.io/v/BoehlerBrothers/bugbattle-android-sdk.svg)](https://jitpack.io/#BoehlerBrothers/bugbattle-android-sdk)
+[![](https://jitpack.io/v/BoehlerBrothers/bugbattle-android-sdk.svg)](https://jitpack.io/BugBattle/BugBattle-Android-SDK)
 
 The easiest way to integrate BugBattle into your apps is by using the BugBattle Android SDK! This article explains the basic steps to integrate this library to your personal project. 😃
 
@@ -24,7 +24,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'com.github.BoehlerBrothers:bugbattle-android-sdk:1.1'
+    implementation 'com.github.BugBattle:BugBattle-Android-SDK:1.3'
 }
 ```
 ( don't forget to synchronise your includes 😄)
