@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BugBattle-Android-SDK-Example</string>
+    <string name="bugbattle_logo">bugbattle_logo</string>
+    <string name="shakeyourphone">Shake your phone to report a bug.</string>
 </resources>
