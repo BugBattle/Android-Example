@@ -24,7 +24,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'com.github.BugBattle:BugBattle-Android-SDK:3.0'
+    implementation 'com.github.BugBattle:BugBattle-Android-SDK:3.0.3'
 }
 ```
 ( don't forget to synchronise your includes 😄)
@@ -45,7 +45,7 @@ This two includes are everything you need.
 @Override      
 protected void onCreate(Bundle savedInstanceState) {          
     .... 
-    BugBattle.initialise("apikey", BugBattleActivationMethod.SHAKE, getApplication());     
+    BugBattle.initialise("apikey", BugBattleActivationMethod.SHAKE, this);     
 } 
 ```
 Add the initialise method to your main activity . Your API key can be found in the project settings within BugBattle. The second parameter is, how the bug report flow is started. There are two ways to activate the flow. The first option is to activate the flow by shaking the device. 
