@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorprimary"
-    tools:context=".MainActivity">
+    android:background="#5E2121"
+    tools:context=".MainActivity2">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imageView2"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="8dp"
@@ -23,25 +23,14 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_bug_all_white" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="50dp"
-        android:text="@string/shakeyourphone"
-        android:textColor="@color/background"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <ImageButton
-        android:id="@+id/next"
+        android:id="@+id/prev"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:backgroundTint="#00FFFFFF"
         android:scaleType="fitCenter"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/next" />
+        app:srcCompat="@drawable/back" />
 
 </android.support.constraint.ConstraintLayout>
