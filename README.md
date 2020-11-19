@@ -56,6 +56,10 @@ The second approach is to invoke the following method. This method can be used i
 ```
 BugBattleActivationMethod.NONE
 ```
+The third version is a double tap with three fingers. It can be used, if the shake gesture is already in use.
+```
+BugBattleActivationMethod.THREE_FINGER_DOUBLE_TAB
+```
 The following method starts the flow, which is also invoked by the shake gesture. To start the flow use this method:
 ```
 BugBattle.startBugReporting()
