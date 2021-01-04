@@ -1,22 +1,10 @@
 # BugBattle-Android 
-[![](https://jitpack.io/v/BugBattle/BugBattle-Android-SDK.svg)](https://jitpack.io/#BugBattle/BugBattle-Android-SDK)
+[ ![Download](https://api.bintray.com/packages/bugbattle/BugBattle-Android/BugBattle-Android-SDK/images/download.svg) ](https://bintray.com/bugbattle/BugBattle-Android/BugBattle-Android-SDK/_latestVersion) [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/BugBattle/Android-SDK/graphs/commit-activity) [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://docs.bugbattle.io)
 
 The easiest way to integrate BugBattle into your apps is by using the BugBattle Android SDK! This article explains the basic steps to integrate this library to your personal project. 😃
 
 ## Add BugBattle from JitPack
 Open your app in your preferred  development tool, for e.g. Android Studio.
-
-**Add the repository**
-
-As already mentioned  it’s very simple to include. Add the following repository to your root build.gradle, to get access to the JitPack repository.
-```
-allprojects {
-    repositories {
-        ...
-        maven { url 'https://jitpack.io' }
-    }
-}
-```
 
 **Add the dependency**
 
@@ -24,7 +12,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'com.github.BugBattle:BugBattle-Android-SDK:3.0.3'
+    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.0.28'
 }
 ```
 ( don't forget to synchronise your includes 😄)
