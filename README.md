@@ -36,17 +36,16 @@ protected void onCreate(Bundle savedInstanceState) {
     BugBattle.initialise("apikey", BugBattleActivationMethod.SHAKE, this);     
 } 
 ```
-Add the initialise method to your main activity . Your API key can be found in the project settings within BugBattle. The second parameter is, how the bug report flow is started. There are two ways to activate the flow. The first option is to activate the flow by shaking the device. 
+Add the initialise method to your main activity . Your API key can be found in the project settings within BugBattle. The second parameter is, how the bug report flow is started. There are several activation methodes:
 ```
-BugBattleActivationMethod.SHAKE
-```
-The second approach is to invoke the following method. This method can be used if the following activation method is passed.
-```
-BugBattleActivationMethod.NONE
-```
-The third version is a double tap with three fingers. It can be used, if the shake gesture is already in use.
-```
-BugBattleActivationMethod.THREE_FINGER_DOUBLE_TAB
+BugBattleActivationMethod.SHAKE // Shake the phone to activate
+
+BugBattleActivationMethod.NONE // disable gesture
+
+BugBattleActivationMethod.THREE_FINGER_DOUBLE_TAB // double tap with three fingers to activate
+
+BugBattleActivationMethod.SCREENSHOT // open bugbattle on physically create screenshot
+
 ```
 The following method starts the flow, which is also invoked by the shake gesture. To start the flow use this method:
 ```
