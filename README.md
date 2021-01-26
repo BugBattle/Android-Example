@@ -3,7 +3,7 @@
 
 The easiest way to integrate BugBattle into your apps is by using the BugBattle Android SDK! This article explains the basic steps to integrate this library to your personal project. 😃
 
-## Add BugBattle from JitPack
+## Add BugBattle 
 Open your app in your preferred  development tool, for e.g. Android Studio.
 
 **Add the dependency**
@@ -12,7 +12,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.0.28'
+    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.0.32'
 }
 ```
 ( don't forget to synchronise your includes 😄)
