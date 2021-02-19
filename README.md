@@ -12,7 +12,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.1.3'
+    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.1.5'
 }
 ```
 ( don't forget to synchronise your includes 😄)
