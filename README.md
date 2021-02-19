@@ -12,7 +12,7 @@ In the same file ( build.gradle ) add the dependency to include the library.
 ```
 dependencies {
     ...
-    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.0.32'
+    implementation 'io.bugbattle:Bugbattle-Android-SDK:3.1.5'
 }
 ```
 ( don't forget to synchronise your includes 😄)
@@ -52,3 +52,19 @@ The following method starts the flow, which is also invoked by the shake gesture
 BugBattle.startBugReporting()
 ```
 Now you are ready to go 😄
+
+**Language**
+
+Sets the default language of the BugBattle reporting flow. Overrides the system default language. The parameter is formatted as Alpha-2 code.  
+https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
+
+Supported languages are:
+- en
+- fr
+- it
+- es
+- de
+
+```js
+BugBattle.setLanguage("en");
+```
