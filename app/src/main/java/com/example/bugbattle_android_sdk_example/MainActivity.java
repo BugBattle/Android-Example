@@ -13,6 +13,7 @@ import org.json.JSONObject;
 
 import bugbattle.io.bugbattle.BugBattle;
 import bugbattle.io.bugbattle.controller.BugBattleActivationMethod;
+import bugbattle.io.bugbattle.controller.BugBattleNotInitialisedException;
 import bugbattle.io.bugbattle.service.ImageMerger;
 import bugbattle.io.bugbattle.view.ImageEditor;
 
@@ -27,8 +28,11 @@ public class MainActivity extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                MainActivity.this.startActivity(intent);
+                try {
+                    BugBattle.startBugReporting();
+                } catch (BugBattleNotInitialisedException e) {
+                    e.printStackTrace();
+                }
             }
         });
 
