@@ -64,6 +64,7 @@ Supported languages are:
 - it
 - es
 - de
+- ns
 
 ```js
 BugBattle.setLanguage("en");
